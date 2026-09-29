@@ -1,0 +1,5 @@
+@tailwind base; @tailwind components; @tailwind utilities;
+body { @apply bg-paper text-ink font-sans; }
+.btn { @apply inline-flex items-center justify-center rounded-md bg-ink px-4 py-2 text-sm font-medium text-paper disabled:opacity-50 focus-visible:outline focus-visible:outline-2 focus-visible:outline-cyan; }
+.btn-ghost { @apply bg-transparent text-ink border border-line; }
+.field { @apply w-full rounded-md border border-line bg-white px-3 py-2 text-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-cyan; }
